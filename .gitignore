@@ -1,0 +1,25 @@
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Secrets and environment variables
+.env
+.streamlit/secrets.toml
+
+# CRITICAL: Ignore all chat export data!
+*.csv
+*.json
+*.db
+*.zip
+*.txt
+
+# Exception: We DO want to upload the requirements.txt file
+!requirements.txt
+
+# Mac system files (just in case)
+.DS_Store
